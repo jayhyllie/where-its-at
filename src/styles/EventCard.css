@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+}
+.event__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 1em;
+  text-align: left;
+  color: #fff;
+}
+.event__card .event__card--date {
+  display: grid;
+  place-content: center;
+  border: 1px solid #fff;
+}
+.event__card .event__card--date p {
+  max-width: 30px;
+  text-align: center;
+}
+.event__card .event__card--info {
+  grid-column: 2 / 4;
+}
+.event__card .event__card--info .event__card--artist {
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px #F56B9A;
+}
+.event__card .event__card--price {
+  display: flex;
+  align-items: end;
+  color: #37AEAB;
+  font-weight: 700;
+}

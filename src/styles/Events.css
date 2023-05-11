@@ -1,0 +1,25 @@
+.eventPage {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: 4em;
+    height: 100vh;
+}
+.eventPage--headline {
+    color: #F56B9A;
+    font-weight: 700;
+    font-family: 'Sansita', sans-serif;
+    text-shadow: 1px 1px 0px #000000;
+    font-size: 3rem;
+    font-style: italic;
+}
+.eventList {
+    display: grid;
+    place-content: top;
+    align-content: flex-start;
+    gap: 2em;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 2em;
+    min-height: 544px;
+}
